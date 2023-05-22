@@ -11,7 +11,6 @@
     ],
     "scripts": {
         "build": "turbo run build",
-        "build-force": "turbo run build --force",
         "dev": "turbo run dev --parallel",
         "start": "run-script-os",
         "start:windows": "cd packages/server/bin && run start",
@@ -38,7 +37,6 @@
         "eslint-config-react-app": "^7.0.1",
         "eslint-plugin-jsx-a11y": "^6.6.1",
         "eslint-plugin-markdown": "^3.0.0",
-        "eslint-plugin-prettier": "^3.4.0",
         "eslint-plugin-react": "^7.26.1",
         "eslint-plugin-react-hooks": "^4.6.0",
         "eslint-plugin-unused-imports": "^2.0.0",
